@@ -1,0 +1,199 @@
+
+
+body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+      
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+
+.judul{ 
+      
+        background-color: #0C0C0C;
+        color: #F2613F;
+        
+}
+
+
+
+#hobby, #contact{
+
+  color:#F2613F;
+  text-decoration: none;
+}
+
+
+h3 {
+
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+ 
+}
+
+
+p, li {
+
+font-family: "ABeeZee", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+}
+
+
+h4{
+
+  color: red;
+  font-family: "Trirong", serif;
+  font-weight: 500;
+  font-style: normal
+
+}
+
+
+
+img{
+
+  border: 5px solid blue;
+ 
+
+}
+
+
+.education p {
+
+color: red;
+
+}
+
+.lain{
+
+  color:black;
+
+}
+
+.pdl p{
+
+  color: red;
+
+}
+
+.true #pkr{
+
+  color:red;
+}
+
+.ktr h4{
+
+  color: red;
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+footer{
+
+  color: blue;
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal
+  
+}
+
+.poto{
+position: relative;
+display: inline-block;
+
+}
+
+.flag {
+
+position: absolute;
+background-color: red;
+width: 600px;
+border: 5px solid black;
+left: 120%; 
+bottom :6px;
+height: 200px;
+margin: 0;
+padding: 0;
+
+}
+.flag > div{
+
+  position: relative;
+  background-color: white;
+  
+  width: 100%;
+  height: 50%;
+  top: 50%;
+  
+
+}
+
+@media (max-width:680px){
+
+  .flag {
+
+    
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    border: 5px solid black;
+    left: 120%; 
+    bottom :6px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.flag > div{
+
+  position: relative;
+  background-color: white;
+  
+  width: 100%;
+  height: 50%;
+  top: 50%;
+
+
+p {
+
+  text-align: justify;
+}
+  
+
+}
+}
+
+.navbar{
+
+  display: flex;
+  gap: 10px;
+  
+}
+
+.navbar > *{
+
+flex-basis: 100px;
+border: 2px solid black;
+border-radius: 5px;
+ 
+
+}
+
+button {
+
+  border-style: none;
+  width: 10px;
+
+}
